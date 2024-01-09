@@ -1,6 +1,6 @@
 {
     "name": "flash-button",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Your screenshot button is now ready to be used on your website, providing users with an easy and effective way to capture and share relevant content.Enjoy the implementation and enhance the user experience on your site!",
     "main": "index.js",
     "repository": {
@@ -18,7 +18,6 @@
     ],
     "author": "Biasiolo",
     "homepage": "https://flash-button.vercel.app/",
-    
     "dependencies": {
         "jquery": "^3.6.4",
         "html2canvas": "^0.5.0"
@@ -30,7 +29,6 @@
             "url": "https://github.com/Biasiolo"
         }
     ],
-    
     "license": "Custom: Donate via PayPal",
     "bugs": {
         "url": "https://github.com/Biasiolo/flash-button/issues"
