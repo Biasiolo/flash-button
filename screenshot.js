@@ -26,9 +26,9 @@ $(document).ready(function() {
         // Adiciona a mensagem ao corpo do documento
         document.body.appendChild(successMessage);
 
-        // Remove a mensagem após alguns segundos (opcional)
+        // Remove a mensagem após alguns segundos 
         setTimeout(function() {
             document.body.removeChild(successMessage);
-        }, 3000); // Remove a mensagem após 3 segundos (ajuste conforme necessário)
+        }, 3000); // Remove a mensagem após 3 segundos 
     }
 });
