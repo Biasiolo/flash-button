@@ -2,37 +2,37 @@
 
 https://flash-button.vercel.app/
 
-## Funcionalidades:
+## Features:
 
-Este projeto apresenta um botão interativo que permite aos usuários tirarem screenshots da área visível do navegador. Algumas características notáveis incluem:
+This project introduces an interactive button that allows users to take screenshots of the visible area in their browser. Some notable features include:
 
-- **Efeito de Flash no Botão:** O botão possui um atraente efeito de flash quando o usuário passa o mouse sobre ele, proporcionando uma experiência visual agradável.
+- **Flash Effect Button:** The button has an attractive flash effect when the user hovers over it, providing a pleasant visual experience.
 
-- **Captura de Screenshot:** Ao clicar no botão, o conteúdo visível do navegador é capturado em formato PNG.
+- **Screenshot Capture:** Clicking the button captures the visible content of the browser in PNG format.
 
-- **Download Rápido:** A imagem capturada é disponibilizada para download imediato, facilitando o compartilhamento e o armazenamento.
+- **Fast Download:** The captured image is made available for immediate download, making sharing and storage hassle-free.
 
-- **Mensagem de Sucesso:** Uma mensagem de sucesso é exibida brevemente para informar ao usuário que o screenshot foi salvo com êxito.
+- **Success Message:** A success message briefly appears to inform the user that the screenshot has been saved successfully.
 
-## Design do Botão:
+## Button Design:
 
-O botão tem um design clean e moderno, com um contorno animado que adiciona um toque de dinamismo. Ao passar o mouse sobre o botão, ocorre uma transição suave para um tom azul atraente.
+The button boasts a clean and modern design with an animated outline that adds a touch of dynamism. Hovering over the button triggers a smooth transition to an appealing blue hue.
 
-## Utilidade da Captura de Área de Conteúdo:
+## Utility of Content Area Capture:
 
-A captura da área de conteúdo do navegador é focada em proporcionar aos usuários a capacidade de capturar apenas a parte relevante da página, agilizando o processo de recorte e destacando a informação essencial.
+Capturing the content area of the browser focuses on providing users with the ability to capture only the relevant part of the page, streamlining the cropping process and highlighting essential information.
 
-## Como Instalar em Seu Site:
+## How to Install on Your Site:
 
-1. **Inclua os Arquivos Necessários:**
-   Certifique-se de incluir os seguintes arquivos em seu projeto:
+1. **Include Necessary Files:**
+   Ensure that you include the following files in your project:
    - jQuery: `https://code.jquery.com/jquery-3.6.4.min.js`
    - html2canvas: `https://html2canvas.hertzen.com/dist/html2canvas.min.js`
-   - `screenshot.js`: Contém a lógica para capturar e salvar screenshots.
-   - `styles.css`: Estilos para o botão e a mensagem de sucesso.
+   - `screenshot.js`: Contains the logic for capturing and saving screenshots.
+   - `styles.css`: Styles for the button and success message.
 
-2. **Referencie os Arquivos no HTML:**
-   Adicione as referências aos arquivos no cabeçalho do seu documento HTML:
+2. **Reference Files in HTML:**
+   Add references to the files in the header of your HTML document:
    ```html
    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
@@ -40,8 +40,8 @@ A captura da área de conteúdo do navegador é focada em proporcionar aos usuá
    <link rel="stylesheet" href="styles.css">
    ```
 
-3. **Adicione o Botão ao Seu HTML:**
-   Insira o botão em qualquer parte do seu HTML, como:
+3. **Add the Button to Your HTML:**
+   Insert the button anywhere in your HTML, for example:
    ```html
    <button class="btn">
       <svg width="180px" height="60px" viewBox="0 0 180 60" class="border">
@@ -52,10 +52,10 @@ A captura da área de conteúdo do navegador é focada em proporcionar aos usuá
    </button>
    ```
 
-4. **Personalize conforme Necessário:**
-   Sinta-se à vontade para personalizar os estilos e a posição do botão para se adequar ao design do seu site.
+4. **Customize as Needed:**
+   Feel free to customize the styles and position of the button to suit your site's design.
 
-5. **Pronto para Uso:**
-   Seu botão de screenshot está agora pronto para ser utilizado em seu site, proporcionando aos usuários uma maneira fácil e eficaz de capturar e compartilhar conteúdo relevante.
+5. **Ready for Use:**
+   Your screenshot button is now ready to be used on your site, providing users with an easy and effective way to capture and share relevant content.
 
-Aproveite a implementação e melhore a experiência do usuário em seu site! 😊
+Enjoy the implementation and enhance the user experience on your site! 😊
