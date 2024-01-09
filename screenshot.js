@@ -1,5 +1,3 @@
-// screenshot.js
-
 $(document).ready(function() {
     $(".btn").on("click", function() {
         html2canvas(document.body).then(function(canvas) {
