@@ -1,6 +1,6 @@
 {
     "name": "flash-button",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Your screenshot button is now ready to be used on your website, providing users with an easy and effective way to capture and share relevant content.Enjoy the implementation and enhance the user experience on your site!",
     "main": "index.js",
     "repository": {
